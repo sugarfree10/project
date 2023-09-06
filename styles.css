@@ -5,7 +5,13 @@
 }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@font-face {
+    font-family: 'Vogue-Like-Font';
+    src: url('path-to-your-font.woff2') format('woff2'),
+         url('path-to-your-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 
 :root {
@@ -18,10 +24,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Libre Baskerville', serif;
-    
-  
+    font-family: 'Vogue-Like-Font', sans-serif; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
 }
+
 
 .vh-container1 {
     height: 100vh;
@@ -31,6 +38,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Vogue-Like-Font', sans-serif; 
     
 }
 
