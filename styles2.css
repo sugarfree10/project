@@ -165,9 +165,9 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     height: 40%;
-    width: 95%;
+    width: 85%;
     color: var(--grey-5, #747171);
     font-family: Roboto;
     font-size: 12px;
